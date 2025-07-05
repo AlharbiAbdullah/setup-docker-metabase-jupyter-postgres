@@ -1,0 +1,6 @@
+pandas
+jupyterlab
+sqlalchemy
+psycopg2-binary
+mgrs
+duckdb
