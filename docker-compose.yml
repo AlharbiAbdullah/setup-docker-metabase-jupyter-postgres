@@ -37,6 +37,7 @@ services:
       MB_DB_FILE: /metabase-data/metabase.db
     volumes:
       - ./metabase_data:/metabase-data
+      - ./data_files/notebooks/sqlitedb.db:/sqlitedb.db 
     depends_on:
       - db
     restart: unless-stopped
